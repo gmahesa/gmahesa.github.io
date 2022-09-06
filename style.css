@@ -11,6 +11,11 @@ section {
   margin-bottom: 2rem;
 }
 
+section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 section.quote {
   padding-block: 0;
   margin-bottom: 0;
@@ -40,6 +45,7 @@ header.hero-caption {
 
 .hero-caption h1 {
   font-size: 4rem;
+  letter-spacing: 5px;
 }
 
 .bg-filter {
@@ -65,4 +71,16 @@ header.hero-caption {
   margin-left: 10px;
   color: rgb(56, 56, 56);
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-caption h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hero-caption h1 {
+    font-size: 2rem;
+  }
 }
