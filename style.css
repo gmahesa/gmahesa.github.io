@@ -1,6 +1,7 @@
 body {
   box-sizing: inherit;
   z-index: 0;
+  font-family: "Manrope", Arial, Helvetica, sans-serif;
 }
 
 header,
@@ -30,10 +31,11 @@ header.hero-caption {
 }
 
 .hero-caption span {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: lighter;
   background-color: rgba(128, 128, 128, 0.397);
-  padding: 4px;
+  padding: 6px;
+  letter-spacing: 5px;
 }
 
 .hero-caption h1 {
